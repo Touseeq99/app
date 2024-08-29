@@ -1,0 +1,4 @@
+pandas 
+crewai
+crewai_tools
+openai  
