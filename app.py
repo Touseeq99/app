@@ -7,9 +7,8 @@ import os
 from io import StringIO
 
 # Set up API keys securely
-os.environ["SERPER_API_KEY"] = "1cf2a1aabd5375b4c8181063dbafdd737a301ad6"
-os.environ["OPENAI_API_KEY"] = "sk-5GSD4deAY3It4kTp8b1mVpQAaTh_ILOr_7boYda5K7T3BlbkFJsi2IXzPwtT9sutOWyENQ7qiCzrT-z-an-mN21hswQA"
-
+os.environ["SERPER_API_KEY"] = 
+os.environ["OPENAI_API_KEY"] = 
 def parse_task_output(raw_output):
     # Regular expressions for extracting job title, location, and company
     title_pattern = r'Job Title:\s*(.*)'
